@@ -1,0 +1,86 @@
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.logo img{
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-top: .3rem;
+}
+
+.logo{
+    display: inline-flex;
+    margin-left: 1rem;
+}
+
+
+.colmar{
+    color: rgb(65, 65, 64);
+    font-size: .75rem;
+}
+
+.academy{
+    color: rgb(117, 117, 117);
+    font-size: .75rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 201, 201);
+}
+
+.banner img{
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+.learn{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: white;
+    background-color: rgb(61, 61, 61);
+    padding: .5rem auto;
+    width: 17rem;
+    height: 2.5rem;
+    border: 1px solid rgb(61, 61, 61);
+    font-size: 1.1rem;
+}
+
+.learn h1{
+    color: rgb(61, 61, 61);
+    font-weight: 800;
+}
+
+.learn h3{
+    color: rgb(61, 61, 61);
+    
+}
+
