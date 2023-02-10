@@ -18,7 +18,14 @@ li{
     display: inline-block;
     margin: 0 1rem;
 }
+/* mobile*/
+@media only screen and (max-width: 580px){
+    .header{
+        margin-bottom: 50px;
+    }
+} 
 
+/* Header */
 .header{
     width: 100%;
     display: inline-flex;
@@ -48,28 +55,43 @@ li{
     font-size: .75rem;
 }
 
+/* Banner */
+
 .banner{
-    display: flex;
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(219, 228, 228);
     align-items: center;
-    background-color: rgb(196, 201, 201);
+    
 }
 
-.banner img{
+.left-banner{
+    padding: 2rem 1.5rem; 
     width: 60%;
-    margin: 2rem 1.5rem;
+}
+
+.left-banner img{
+    width: 100%;
+}
+
+.right-banner{
+    display: flex;
+    align-items: center;
 }
 
 .learn{
     display: flex;
+    width: 40%;
+    display: flex;
     flex-direction: column;
 }
 
-button{
+.button{
+    text-align: center;
+    padding: 1rem 0;
     color: white;
     background-color: rgb(61, 61, 61);
-    padding: .5rem auto;
     width: 17rem;
-    height: 2.5rem;
     border: 1px solid rgb(61, 61, 61);
     font-size: 1.1rem;
 }
@@ -84,3 +106,104 @@ button{
     
 }
 
+/* Fully Container */
+
+.container{
+    width: 100%;
+    display: flex;
+    
+    /* flex-wrap: nowrap; */
+}
+
+/* Left part of container */
+
+.left-container{
+   
+    padding: 2rem 1.5rem; 
+    width: 60%;
+}
+
+.left-container-image img{ 
+    width: 100%;
+}
+
+.left-container-header h1{
+    color: rgb(81, 81, 81);
+}
+
+.left-container-header p{
+    color: rgb(112, 112, 112);
+}
+
+.name{
+    position: relative;
+    top: 12rem;
+}
+
+/* Right part of container */
+
+.right-container{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+
+}
+
+.right-container-image{
+    display: inline-flex;
+    padding: 1rem 1rem;
+}
+
+.right-container-image:hover{
+    background-color: lightgray;
+    transition: background-color 700ms linear;
+}
+
+.right-container-image img{
+    width: 35%;
+    height: auto;
+}
+
+.right-container-image-info{
+    width: 65%;
+    padding-left: 15px;
+}
+
+.right-container-image-info h2{
+    color: rgb(81, 81, 81);
+}
+
+.right-container-image-info h3{
+    color: rgb(112, 112, 112);
+}
+
+.right-container-image-info a{
+    color: rgb(39, 161, 202);
+}
+
+.top{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2px;
+}
+
+.center{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    margin: 2px 0;
+}
+
+.bottom{
+    border-top: 1px solid lightgray;
+    margin-top: 2px;
+}
+
+
+/* StartLearning */
+
+.startLearning{
+    padding-top: 2rem;
+    background-color: rgb(219, 228, 228);
+    display: flex;
+    justify-content: center;
+}
